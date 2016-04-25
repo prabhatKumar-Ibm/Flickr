@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flickr</title>
+  <link href="app/css/styles.css" rel="stylesheet" type="text/css">
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+  <script src="https://npmcdn.com/@angular/router@0.2.0/angular1/angular_1_router.js"></script>
+  <script src="app/js/app.js"></script>
+  <script src="app/js/images/image.js"></script>
+  <script type="text/javascript">
+    angular.element(document.getElementsByTagName('head')).append(angular.element('<base href="' + window.location.pathname + '" />'));
+  </script>
+</head>
+<body ng-app="app">
+  <h1 class="title">Flickr</h1>
+<app></app>
+</body>
+</html>
